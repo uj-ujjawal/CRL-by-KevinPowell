@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.parent-none {
+  background-color: darkcyan;
+  padding: 25px;
+  margin: 0 auto;
+  margin: 10px;
+}
+
+.child-none {
+  background-color: palegreen;
+  height: 150px;
+}
+
+.parent-fixed {
+  background-color: darkcyan;
+  padding: 25px;
+  width: 990px;
+  margin: 0 auto;
+  margin: 10px;
+}
+
+.child-fixed {
+  background-color: palegreen;
+  height: 150px;
+  margin: 10px;
+}
+
+.parent-percentage {
+  background-color: darkcyan;
+  padding: 25px;
+  width: 80%;
+  margin: 0 auto;
+  margin: 10px;
+}
+
+.child-percentage {
+  background-color: palegreen;
+  height: 150px;
+  margin: 10px;
+}
