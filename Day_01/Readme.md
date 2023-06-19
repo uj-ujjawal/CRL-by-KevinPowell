@@ -29,13 +29,6 @@ The behavior of an element without a specified width depends on its display prop
 
 Example: <https://codepen.io/ujjawalsingh/pen/YzRqbQp?editors=1100>
 
-<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="YzRqbQp" data-preview="true" data-editable="true" data-user="ujjawalsingh" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/ujjawalsingh/pen/YzRqbQp">
-  CRL : Day 01-01</a> by Ujjawal Singh (<a href="https://codepen.io/ujjawalsingh">@ujjawalsingh</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
-
 ### When deciding between percentage and fixed width, consider the following factors
 
 - If your design requires flexibility and responsiveness, percentage widths are often preferred. If you need elements to maintain specific dimensions consistently, fixed widths may be more suitable.
@@ -46,15 +39,14 @@ Example: <https://codepen.io/ujjawalsingh/pen/YzRqbQp?editors=1100>
 - if child element has fixed width it's going to be overflowing out of the parent. However we can hide it by using CSS property called: `overflow`.
 - and if child has percentage then it will be respective of it's parent. For example parent and child width is set to 80% then this parent's 80% will be according to body or the screen size, but child's 80% will be according to it's parent.
 
-![Alt text](image.png)
+![Example Image for Percentage vs fixed width on the child element](./image.png)
 
 Example:
-
-<iframe height="300" style="width: 100%;" scrolling="no" title="CRL : Day 01-02" src="https://codepen.io/ujjawalsingh/embed/preview/oNQxRdz?default-tab=html%2Cresult&editable=true&theme-id=dark" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/ujjawalsingh/pen/oNQxRdz">
+<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="oNQxRdz" data-user="ujjawalsingh" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/ujjawalsingh/pen/oNQxRdz">
   CRL : Day 01-02</a> by Ujjawal Singh (<a href="https://codepen.io/ujjawalsingh">@ujjawalsingh</a>)
-  on <a href="https://codepen.io">CodePen</a>.
-</iframe>
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
 
 ## Extra
 
@@ -65,9 +57,9 @@ Em vs rem - <https://youtu.be/_-aDOAMmDHI>
 - [Day01-Challenge01-problem](./Challenge%2001/problem/)
 - [Day01-Challenge01-solution](./Challenge%2001/solution/)
 
+Codepen Solution Link
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="NWOVJBW" data-preview="true" data-editable="true" data-user="ujjawalsingh" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/ujjawalsingh/pen/NWOVJBW">
   CRL : Day 01 Challenge-1</a> by Ujjawal Singh (<a href="https://codepen.io/ujjawalsingh">@ujjawalsingh</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
