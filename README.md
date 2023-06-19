@@ -2,8 +2,10 @@
 
 Conquering Responsive Layouts 21 Day Challenge by Kevin Powell
 
-Website: <https://courses.kevinpowell.co/>
-Course: <https://courses.kevinpowell.co/view/courses/conquering-responsive-layouts>
+- Website: <https://courses.kevinpowell.co/>
+- Course: <https://courses.kevinpowell.co/view/courses/conquering-responsive-layouts>
+
+---
 
 - [Day 1 | Using percentages & avoiding heights](./Day_01/) --[✅]
 - [Day 2 | Getting familiar with relative units](./Day_02/) --[✅]
