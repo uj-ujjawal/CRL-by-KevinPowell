@@ -39,7 +39,7 @@ Example: <https://codepen.io/ujjawalsingh/pen/YzRqbQp?editors=1100>
 - if child element has fixed width it's going to be overflowing out of the parent. However we can hide it by using CSS property called: `overflow`.
 - and if child has percentage then it will be respective of it's parent. For example parent and child width is set to 80% then this parent's 80% will be according to body or the screen size, but child's 80% will be according to it's parent.
 
-![Example Image for Percentage vs fixed width on the child element](./attactments/image.png)
+![Example Image for Percentage vs fixed width on the child element](./image.png)
 
 Example:
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="oNQxRdz" data-user="ujjawalsingh" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
