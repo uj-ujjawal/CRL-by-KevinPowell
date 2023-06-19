@@ -1,0 +1,135 @@
+/* Layout
+maximum width of a “container”
+is 1128px in the very first section try setting a min-height 
+of 660px and using what we’ve covered in
+flexbox to center the content vertically
+
+By KP:
+h1 - font-size 48px
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Roboto:wght@300;400&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* 
+***************************************
+                Reusable Code
+****************************************
+*/
+
+:root {
+  --color1: #f3eed9;
+  --color2: #222c2a;
+  --color3: #824936;
+}
+h1,
+h2 {
+  font-family: "Playfair Display", "Courier New", Courier, monospace;
+  font-weight: 900;
+}
+h1 {
+  font-size: 60px;
+}
+h2 {
+  font-size: 36px;
+  margin-bottom: 1em;
+}
+
+p {
+  font-family: "Roboto", "Courier New", Courier, monospace;
+  font-size: 21px;
+  font-weight: 400;
+}
+.section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  max-width: 1128px;
+  margin: 0 auto;
+  padding: 50px;
+  /*  border: 5px solid blue;  */ /* for debug */
+}
+
+img {
+  max-width: 100%;
+}
+
+/*
+***************************************
+              Hero-section
+****************************************
+*/
+
+.hero-section {
+  min-height: 660px;
+  background-color: var(--color1);
+  /*  border: 5px dashed darkcyan; */
+}
+
+.hero-text-content {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.hero-text {
+  text-transform: uppercase;
+  letter-spacing: 0.4em;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+h1 {
+  color: var(--color3);
+}
+
+/* 
+***************************************
+              Section 1
+****************************************
+*/
+.section-1-title {
+  text-align: center;
+  color: var(--color3);
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+.col {
+  width: 100%;
+}
+/* 
+***************************************
+              Section 2
+****************************************
+*/
+.section-2 {
+  background-color: var(--color2);
+}
+/* 
+***************************************
+              Section 3
+****************************************
+*/
+
+.section-3 {
+  background-color: var(--color3);
+}
+
+.section-2,
+.section-3 {
+  color: var(--color1);
+}

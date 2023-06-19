@@ -22,6 +22,6 @@ Course: <https://courses.kevinpowell.co/view/courses/conquering-responsive-layou
 - [Day 16 | What breakpoints to use?](.)
 - [Day 17 | The viewport meta tag](.)
 - [Day 18 | Challenge solution & Mobile-first](./)
-- [Day 19 | Mobile navigation challenge](./)
-- [Day 20 | Mobile navigation challenge solution](./)
+- [Day 19 | Mobile navigation challenge](./Day_19/)
+- [Day 20 | Mobile navigation challenge solution](./Day_20/)
 - [Day 21 | You've done it!](./)
